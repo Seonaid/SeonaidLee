@@ -18,6 +18,8 @@ gem 'uglifier', '>= 1.3.0'
 
 #gem 
 
+gem 'materialize-sass', '~> 1.0.0.rc1'
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -45,6 +47,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.7'
+  gem 'factory_bot_rails'
 end
 
 group :development do
